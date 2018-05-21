@@ -1,0 +1,17 @@
+This python library implements the Cayley-Dickson doubling process
+(https://en.wikipedia.org/wiki/Cayley–Dickson_construction), as well as
+congruence rings. For the later, it borrows heavily upon work by Jeremy Kun
+(https://jeremykun.com/2014/02/08/introducing-elliptic-curves/,
+https://github.com/j2kun/elliptic-curve-signature).
+
+This library is in support of my research in Number Theory
+(arXiv:math/0506349 [math.RA]), with a view towards applications to Cryptography
+(DOI: 10.13140/RG.2.2.24952.55040).
+
+It is pretty much a work in progress, though basic functionality is present.
+Facilities for exploring Caley-Galois constructs are planed.
+
+This library requires at least Python 3.5, in order for the __matmul__ operator
+to be present (though we hijack its usual meaning).
+
+Hubert Holin
