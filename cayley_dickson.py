@@ -3,6 +3,12 @@
 cayley_dickson
 
 This script provides a facilty to create objects via the Cayley-Dickson doubling method.
+
+(C) Copyright Hubert Holin 2018.
+Distributed under the Boost Software License, Version 1.0. (See
+accompanying file LICENSE_1_0.txt or copy at
+http://www.boost.org/LICENSE_1_0.txt)
+
 """
 
 from compatibility_check import *

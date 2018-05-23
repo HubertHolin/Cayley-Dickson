@@ -5,6 +5,12 @@ congruence_rings
 This script provides congruence ring objects. Inspired (but different) from Jeremy Kun's
 implementation (https://github.com/j2kun/elliptic-curve-signature,
 https://jeremykun.com/2014/02/08/introducing-elliptic-curves/).
+
+(C) Copyright Hubert Holin 2018.
+Distributed under the Boost Software License, Version 1.0. (See
+accompanying file LICENSE_1_0.txt or copy at
+http://www.boost.org/LICENSE_1_0.txt)
+
 """
 
 from arithmetic import PGCD, Bézout
